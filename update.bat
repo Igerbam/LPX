@@ -6,4 +6,5 @@ git commit -m initialcommit
 git pull --rebase
 git push
 tree
-sleep 5
+ping localhost -n 20 > nul
+pause
