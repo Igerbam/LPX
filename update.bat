@@ -1,4 +1,4 @@
-@green
+@echo off
 title initialcommit
 color a
 git add .
