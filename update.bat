@@ -1,4 +1,5 @@
 @echo off
+color 4
 title initialcommit
 tree
 echo ------------------------------------------------------------------------------------------
@@ -8,5 +9,6 @@ git add .
 git commit -m initialcommit
 git pull --rebase
 git push
-ping localhost -n 20 > nul
-pause
+color 6
+ping localhost -n 10 > nul
+color 2
