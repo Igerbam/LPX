@@ -1,6 +1,6 @@
 @echo off
 color 4
-title initialcommit
+title Initialcommit - pushing
 tree
 echo ------------------------------------------------------------------------------------------
 echo -------------------------------------UPDATING---------------------------------------------
@@ -10,5 +10,11 @@ git commit -m initialcommit
 git pull --rebase
 git push
 color 6
+title Initialcommit - updating...
 ping localhost -n 10 > nul
 color 2
+title Initialcommit - updating done!
+echo ------------------------------------------------------------------------------------------
+echo -----------------------------------UPDATING DONE!-----------------------------------------
+echo ------------------------------------------------------------------------------------------
+ping localhost -n 10 > nul
